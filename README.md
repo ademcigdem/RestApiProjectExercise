@@ -12,7 +12,7 @@
 ##### HOW TO RUN TESTS
 ```sh
  -> Under the runner package "Runner" right click and run Runner. "src > test > java > runner > Runner"
- -> mvn test --> in the IDE console or navigate project path in commend line and run.
+ -> mvn test --> in the IDE console or navigate project path in command line and run.
 ```
 ##### HOW TO CREATE TEST REPORTS
 
@@ -21,8 +21,8 @@
 
 2-) Second type of report, the project is run from **Runner** class, a **Cucumber Report link** is created in the IDE console automatically.       
  Sample link -> View your Cucumber Report at:   (Works 24 hours later than it will delete automatically)                                         
-                 https://reports.cucumber.io/reports/d075d19d-4ccb-4e11-8da8-85e2220de650 
- Sample Screenshot -> 
+                 https://reports.cucumber.io/reports/d075d19d-4ccb-4e11-8da8-85e2220de650             
+ Sample Screenshot -> **SampleCucumberReportScreeShot.png**
 
 3-) The log documents are located at the project level under the **execution_log.txt** file.
  
