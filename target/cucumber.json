@@ -1,0 +1,310 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-12T22:09:05.454Z",
+        "before": [
+          {
+            "result": {
+              "duration": 859000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "store.step_definitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate number of the pets in API server",
+        "description": "",
+        "id": "validate-how-many-pets-have-the-status-“available\"-and-the-name-“doggie”.;validate-number-of-the-pets-in-api-server",
+        "after": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "store.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3765000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user send GET request to \"/pet/findByStatus\" endpoint",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/pet/findByStatus\"",
+                  "offset": 25
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.user_send_get_request_to_endpoint(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify that status code 200 and content type \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                },
+                {
+                  "val": "\"application/json\"",
+                  "offset": 45
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.verify_that_status_code_and_content_type(int,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 960000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the request for \"available\" pets status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"available\"",
+                  "offset": 16
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.the_request_for_pets_status(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1225000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "should be pets status with the name \"doggie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"doggie\"",
+                  "offset": 36
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.should_be_pets_status_with_the_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify correct number of the pets count 26",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 40
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.verifyCorrectNumberOfThePetsCount(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api_pet"
+          },
+          {
+            "name": "@live"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-12T22:09:12.630Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "store.step_definitions.Hooks.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 859000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "store.step_definitions.Hooks.setupWireMock()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate number of the pets in WireMock server",
+        "description": "",
+        "id": "validate-how-many-pets-have-the-status-“available\"-and-the-name-“doggie”.;validate-number-of-the-pets-in-wiremock-server",
+        "after": [
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "store.step_definitions.Hooks.tearDownWireMock()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "store.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 357000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user send GET request to \"/pet/findByStatus\" endpoint with wiremock",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/pet/findByStatus\"",
+                  "offset": 25
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.userSendGETRequestToEndpointWithWiremock(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify that status code 200 and content type \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                },
+                {
+                  "val": "\"application/json\"",
+                  "offset": 45
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.verify_that_status_code_and_content_type(int,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the request for \"available\" pets status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"available\"",
+                  "offset": 16
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.the_request_for_pets_status(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "should be pets status with the name \"doggie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"doggie\"",
+                  "offset": 36
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.should_be_pets_status_with_the_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify correct number of the pets count 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 40
+                }
+              ],
+              "location": "store.step_definitions.ApiStepDefinitions.verifyCorrectNumberOfThePetsCount(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api_pet"
+          },
+          {
+            "name": "@wire_mock"
+          }
+        ]
+      }
+    ],
+    "name": "Validate how many pets have the status “available\" and the name “doggie”.",
+    "description": "",
+    "id": "validate-how-many-pets-have-the-status-“available\"-and-the-name-“doggie”.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api_features/FindByStatus.feature",
+    "tags": [
+      {
+        "name": "@Api_pet",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
