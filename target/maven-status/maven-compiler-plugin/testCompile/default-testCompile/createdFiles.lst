@@ -1,0 +1,10 @@
+store/pojo/PetStatus.class
+store/runner/Runner.class
+store/pojo/Category.class
+store/mainUtilities/WireMock.class
+store/step_definitions/ApiStepDefinitions.class
+store/step_definitions/Hooks.class
+store/pojo/Petstore.class
+store/request/Request.class
+store/mainUtilities/ConfigReader.class
+store/pojo/Tag.class

@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: store.runner.CukesRunner
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.78 s <<< FAILURE! - in store.runner.CukesRunner
-Validate number of the pets(Validate how many pets have the status “available" and the name “doggie”.)  Time elapsed: 5.943 s  <<< FAILURE!
-java.lang.AssertionError: Verify doggie names count  expected:<13> but was:<33>
-
