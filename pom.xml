@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.petstore</groupId>
-    <artifactId>MasterCard_RestAPI_Project</artifactId>
+    <artifactId>RestAPI_Project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -19,14 +19,14 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>6.6.0</version>
+            <version>7.2.3</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>6.6.0</version>
+            <version>7.2.3</version>
             <scope>test</scope>
         </dependency>
 
@@ -34,14 +34,14 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>4.3.1</version>
+            <version>4.5.1</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
-            <version>4.3.1</version>
+            <version>4.5.1</version>
         </dependency>
 
         <dependency>
@@ -66,7 +66,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jdk14</artifactId>
-            <version>1.7.21</version>
+            <version>1.7.36</version>
         </dependency>
 
         <dependency>
