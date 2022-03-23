@@ -1,7 +1,9 @@
+/Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/actions/ModelSession.java
 /Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/mainUtilities/WireMock.java
 /Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/runner/Runner.java
 /Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/pojo/PetStatus.java
 /Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/pojo/Petstore.java
+/Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/step_definitions/UserStepDef.java
 /Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/pojo/Tag.java
 /Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/mainUtilities/ConfigReader.java
 /Users/fundacigdem/IdeaProjects/RestApiProjectExercise/src/test/java/store/request/Request.java
