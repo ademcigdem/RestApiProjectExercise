@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: store.runner.Runner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.311 s <<< FAILURE! - in store.runner.Runner
-Validate number of the pets in API server(Validate how many pets have the status “available" and the name “doggie”.)  Time elapsed: 1.683 s  <<< FAILURE!
-java.lang.AssertionError: Verify doggie names count  expected:<406> but was:<332>
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.422 s - in store.runner.Runner
