@@ -37,13 +37,14 @@ public class ModelSession {
                 response = httpRequest.headers(headerLoader())
                         .body(new File(filePath))
                         .request(Method.POST, endPoint);
-                response.prettyPrint();
                 break;
             case "PUT":
-                response = given(httpRequest).put(endPoint);
+                response = httpRequest.headers(headerLoader()).
+                        body(new File(filePath)).
+                        request(Method.PUT, endPoint);
                 break;
             case "DELETE":
-                response = given(httpRequest).delete(endPoint);
+                response = httpRequest.delete(endPoint);
                 break;
             default:
                 throw new Exception("Unsupported request method : " + method);
